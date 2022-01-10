@@ -1,6 +1,8 @@
+# Current UI
 
+![alt text](https://github.com/jmloudis/Solidity_FullStack/blob/main/src/photos/Contracts.jpg)
 
-# Basic Sample Hardhat Project
+# Full Stack Solidity
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
