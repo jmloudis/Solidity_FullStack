@@ -1,5 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
-
+// require('@nomiclabs/hardhat-ethers');
+// require("@nomiclabs/hardhat-etherscan");
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -30,8 +31,22 @@ module.exports = {
       url: "https://ropsten.infura.io/v3/279457d9ba724d0896e07404203194d5",
       accounts: [`0x${process.env.ACCOUNT_KEY}`]
   
+    },
+    bscTestnet: {
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      chainId: 97,
+      accounts: [`0x${process.env.ACCOUNT_KEY}`]
+
+
     }
     
-  }
+  },
+
+  // etherscan: {
+  //   // Your API key for Etherscan
+  //   // Obtain one at https://bscscan.com/
+  //   // apiKey: [`${process.env.BSC_API}`]
+  // }
+
 };
 
