@@ -7,7 +7,7 @@ import { parseName, parseBytes } from '../utils/parse';
 import { parseBytes32String } from 'ethers/lib/utils';
 import token from '../artifacts/contracts/Vote.sol/Vote.json';
 
-const votingAddress = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707"
+const votingAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
 
 function Dapp() {
 
